@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>SB Admin - Start Bootstrap Template</title>
+  <!-- Bootstrap core CSS-->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template-->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- Page level plugin CSS-->
+  <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin.css" rel="stylesheet">
+</head>
+
+<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <a class="navbar-brand" href="index.html">CP202: Crash Course</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+          <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+              <a class="nav-link" href="class-content.html">
+                <span class="nav-link-text">Class Content</span>
+              </a>
+            </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" href="chapter1.html">
+            <span class="nav-link-text">Chapter 1</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
+          <a class="nav-link" href="chapter2.html">
+            <span class="nav-link-text">Chapter 2</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+          <a class="nav-link" href="chapter3.html">
+            <span class="nav-link-text">Chapter 3</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
+          <a class="nav-link" href="chapter4.html">
+            <span class="nav-link-text">Chapter 4</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a class="nav-link" href="chapter5.html">
+            <span class="nav-link-text">Chapter 5</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a class="nav-link" href="chapter6.html">
+            <span class="nav-link-text">Chapter 6</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a class="nav-link" href="chapter7.html">
+            <span class="nav-link-text">Chapter 7</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a class="nav-link" href="chapter8.html">
+            <span class="nav-link-text">Chapter 8</span>
+          </a>
+        </li>
+      
+      </ul>
+      <ul class="navbar-nav sidenav-toggler">
+        <li class="nav-item">
+          <a class="nav-link text-center" id="sidenavToggler">
+            <i class="fa fa-fw fa-angle-left"></i>
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right">
+          <a class="nav-link" href="about.html">
+            <span class="nav-link-text">About</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right">
+          <a class="nav-link" href="contact.html">
+            <span class="nav-link-text">Contact</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <form class="form-inline my-2 my-lg-0 mr-lg-2">
+            <div class="input-group">
+              <input class="form-control" type="text" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="content-wrapper">
+    <div class="container-fluid">
+    <h1> Chapter 3</h1>
+    <h2>CSS – Cascading Style Sheets </h2>
+    <ul>
+    <li>A single cascading style sheet can control the color, typography, and layout of multiple web pages </li>
+    <li>Content is in HTML and styling is in CSS </li>
+    <li>Easier to look after site because it's DRY (Don't Repeat Yourself) </li>
+    <li>Types of Style Sheets – put the style for the body in the <head> sections </li>
+    <li>Inline Styles (overwrites embedded styles because it is specified inline)(used for one element) </li>
+    <li>Colors are written in hexadecimal values where </li>
+    <li>Red = #FF0000 </li>
+    <li>Green = #00FF00 </li>
+    <li>Blue = #0000FF </li>
+    <li>Black = #000000 </li>
+    <li>White = #FFFFFF </li>
+    <li>When choosing colors for text and background, you should use colors that have strong contrast to make the text easier to read – especially for color blind individuals </li>
+    <li>To make font a color  </li>
+    <li>&lt;p style="color:green"&gt </li>
+    <li>Can also change the font appearance </li>
+    <li>Font-size </li>
+    <li>{p style="font-size:em3"} </li>
+    <li><table>
+    <tbody>
+    <tr>
+      <td><b>Text Values</b></td>
+      <td><b>Em Units</b></td>
+      <td><b>Px Units</b></td>
+      <td><b>Pt Units</b></td>
+      <td><b>Percentage</b></td>
+    </tr>
+    <tr>
+    <td>xx-small</td>
+    <td>.5 em</td>
+    <td>8px;</td>
+    <td>6pt</td>
+    <td>50%</td>
+    </tr>
+    <tr>
+    <td>x-small</td>
+    <td>.6 em</td>
+    <td>11px</td>
+    <td>8pt</td>
+    <td>60%</td>
+    </tr>
+    <tr>
+    <td>small</td>
+    <td>.75 em</td>
+    <td>13px</td>
+    <td>10pt</td>
+    <td>75%</td>
+    </tr>
+    <tr>
+    <td>medium</td>
+    <td>1 em</td>
+    <td>16px</td>
+    <td>12pt</td>
+    <td>100%</td>
+    </tr>
+    <tr>
+    <td>large</td>
+    <td>1.15 em</td>
+    <td>18px</td>
+    <td>13.5pt</td>
+    <td>110%</td>
+    </tr>
+    <tr>
+    <td>x-large</td>
+    <td>1.5 em</td>
+    <td>24px</td>
+    <td>18pt</td>
+    <td>150%</td>
+    </tr>
+    <tr>
+    <td>xx-large</td>
+    <td>2 em</td>
+    <td>30px</td>
+    <td>24pt</td>
+    <td>200%</td>
+    </tr>
+    </tbody>
+    </table> </li>
+    </ul>
+      
+    <h2>Font-family </h2>
+    <ul>
+    <li>&lt;h1 Style="font-family:serif"&gt</li>
+    <li>Changes the style of the font </li>
+    <li>Sometimes you will see multiple fonts written down - "font-family:serif, times new roman, veranda" - this is to make sure that if the program doesn’t have the first font, the second option will take over </li>
+    <li>Embedded Styles (styles the whole site - don’t have to keep styling each paragraph) </li>
+    <li>Put right into the HTML file </li>
+    <li>Creates style for all font </li>
+    <li>&lt;style&gt  P{color:blue; background:grey}  &lt;/style&gt </li>
+    <li> There are also external styles and imported styles </li>
+    </ul>
+    
+    <h2> In body{color:blue} </h2>
+    <ul>
+    <li> Body is the selector</li>
+    <li>Color is the declaration property </li>
+    <li> And blue is the declaration value </li>
+    </ul>
+    
+    <h2>CSS Selectors </h2>
+    <ul> 
+    <li>&lt;h id="paragraph2"&gt This is a Heading&lt;/h&gt </li>
+    <li>&lt;p class="bodyclass"&gt Paragraph &lt;/p&gt </li>
+    <li>In the &lt;head&gt style section at the top of page, put #paragraph2 and give it a color </li>
+    <li>In the &lt;head&gt style section at the top of the page, put p.bodyclass{color:turquoise} </li>
+    <li>This formats the color for the fonts for each paragraph in that particular section </li>
+    <li>You can also create a section and have only two p.bodyclass{color:turquoise} in the section and the other one outside of it </li>
+    <li>Section p.bodyclass{color:turquoise} </li>
+    <li>This makes only the paragraphs within the section turquoise while the other paragraphs remain the original color format </li>
+    <li>p.bodyclass span{color:pink} - in the head format at top of html page </li>
+    <li>&lt;span&gt words you want pink within the other bodyclass turquoise&lt;/span&gt </li>
+    <li>To put a style sheet into a html page, you have to set up a CSS style sheet </li>
+    <li>&lt;link rel="stylesheet" href="test1.css"/&gt </li>
+    <li>In purely CSS documents, you dont need and HTML codes </li>
+    <li>All you put is the styles – for example; </li>
+    <li>P{color;red} </li>
+    </ul>
+    
+    <h2>To centre the page </h2>
+    <ul>
+    <li>Body{width:80%;margin-left: auto;margin-right: auto} </li>
+    <li>Don’t need margin-left or margin-right </li>
+    <li>{Margin: 0 auto} </li>
+    <li>0 is the top and bottom, auto is left and right</li>
+    </ul>
+    
+    <!-- /.container-fluid-->
+    <!-- /.content-wrapper-->
+    <footer class="sticky-footer">
+      <div class="container">
+        <div class="text-center">
+          <small>Copyright © CP202 Crash Course 2017</small>
+        </div>
+      </div>
+    </footer>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+    <!-- Logout Modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="login.html">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Page level plugin JavaScript-->
+    <script src="vendor/datatables/jquery.dataTables.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin.min.js"></script>
+    <!-- Custom scripts for this page-->
+    <script src="js/sb-admin-datatables.min.js"></script>
+  </div>
+</body>
+
+</html>

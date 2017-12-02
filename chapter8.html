@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>SB Admin - Start Bootstrap Template</title>
+  <!-- Bootstrap core CSS-->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template-->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- Page level plugin CSS-->
+  <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin.css" rel="stylesheet">
+</head>
+
+<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <a class="navbar-brand" href="index.html">CP202: Crash Course</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+          <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+              <a class="nav-link" href="class-content.html">
+                <span class="nav-link-text">Class Content</span>
+              </a>
+            </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" href="chapter1.html">
+            <span class="nav-link-text">Chapter 1</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
+          <a class="nav-link" href="chapter2.html">
+            <span class="nav-link-text">Chapter 2</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+          <a class="nav-link" href="chapter3.html">
+            <span class="nav-link-text">Chapter 3</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
+          <a class="nav-link" href="chapter4.html">
+            <span class="nav-link-text">Chapter 4</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a class="nav-link" href="chapter5.html">
+            <span class="nav-link-text">Chapter 5</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a class="nav-link" href="chapter6.html">
+            <span class="nav-link-text">Chapter 6</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a class="nav-link" href="chapter7.html">
+            <span class="nav-link-text">Chapter 7</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a class="nav-link" href="chapter8.html">
+            <span class="nav-link-text">Chapter 8</span>
+          </a>
+        </li>
+        
+      </ul>
+      <ul class="navbar-nav sidenav-toggler">
+        <li class="nav-item">
+          <a class="nav-link text-center" id="sidenavToggler">
+            <i class="fa fa-fw fa-angle-left"></i>
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right">
+          <a class="nav-link" href="about.html">
+            <span class="nav-link-text">About</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right">
+          <a class="nav-link" href="contact.html">
+            <span class="nav-link-text">Contact</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <form class="form-inline my-2 my-lg-0 mr-lg-2">
+            <div class="input-group">
+              <input class="form-control" type="text" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="content-wrapper">
+    <div class="container-fluid">
+    <h1> Chapter 8</h1>
+    <h2>HTML Table </h2>
+    <ul>
+    <li>Tables are used on web pages to organize tubular info </li>
+    <li>Composed of rows and columns – similar to a spread sheet </li>
+    <li>Configured with table, tr and td elements </li>
+    <p>&lt;table border="1"&gt </p>
+    <p>&lt;caption&gt Bird Sightings&lt;/caption&gt </p>
+    <p>&lt;tr&gt </p>
+    <p>&lt;td&gtName&lt;/td&gt </p>
+    <p>&lt;td&gtDate&lt;/td&gt </p>
+    <p>&lt;/tr&gt </p>
+    <p>&lt;tr&gt </p>
+    <p>&lt;td&gtCardinal&lt;/td&gt </p>
+    <p>&lt;td&gt11/12/1994&lt;/td&gt </p>
+    <p>&lt;/tr&gt </p>
+    <p>&lt;table&gt </p></li>
+    </ul>
+    
+    <h2>HTML table attributes</h2> 
+    <ul>
+    <li>Align – obsolete </li>
+    <li>Bgcolor – obsolete </li>
+    <li>Border </li>
+    <li>Colspan - &lt;td colspan="2"&gt (makes the top row of the table span over the columns) </li>
+    <li>Rowspan - &lt;td rowspan="2"&gt (makes the left column of the table span over the rows) </li>
+    <li>Cellpadding – obsolete </li>
+    <li>Cellspacing – obsolete </li>
+    <li>Summary – obsolete </li>
+    <li>Width – obsolete </li>
+    <li>Use css to configure table characteristics instead of html attributes </li>
+    </ul>
+    
+    <h2>Accessibility and Tables </h2>
+    <ul>
+    <li>Use the table headers elements (&lt;th&gt tags) to indicate column or row headings </li>
+    <li>Use the caption elements to provide a text or title or caption for the table </li>
+    <li>For complex tables, associate the table cell values with their corresponding headers </li>
+    </ul>
+    
+    <h2>CSS Structural Pseudo-classes</h2> 
+    <ul>
+    <li>:first-of-type – applies to the first element of the specified type </li>
+    <li>:first-child – applies to the first child of the element </li>
+    <li>:last-of-type – applies to the last element of the specified type </li>
+    <li>:last-child – applies to the last child of an element </li>
+    <li>:nth-of-type(n) - applies to the nth element of the specified type  </li>
+    <li>Zebra stripe table – Tr:nth-of-type =(even) [background-color: #eaeaea;} </li>
+    <li> Table Elements - &lt;thead&gt, &lt;tbody&gt, &lt;tfoot&gt (when you need to total something) </li>
+    </ul>
+    
+    <!-- /.container-fluid-->
+    <!-- /.content-wrapper-->
+    <footer class="sticky-footer">
+      <div class="container">
+        <div class="text-center">
+          <small>Copyright © CP202 Crash Course 2017</small>
+        </div>
+      </div>
+    </footer>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+    <!-- Logout Modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="login.html">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Page level plugin JavaScript-->
+    <script src="vendor/datatables/jquery.dataTables.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin.min.js"></script>
+    <!-- Custom scripts for this page-->
+    <script src="js/sb-admin-datatables.min.js"></script>
+  </div>
+</body>
+
+</html>

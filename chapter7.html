@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>SB Admin - Start Bootstrap Template</title>
+  <!-- Bootstrap core CSS-->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template-->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- Page level plugin CSS-->
+  <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin.css" rel="stylesheet">
+</head>
+
+<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <a class="navbar-brand" href="index.html">CP202: Crash Course</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+          <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+              <a class="nav-link" href="class-content.html">
+                <span class="nav-link-text">Class Content</span>
+              </a>
+            </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" href="chapter1.html">
+            <span class="nav-link-text">Chapter 1</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
+          <a class="nav-link" href="chapter2.html">
+            <span class="nav-link-text">Chapter 2</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+          <a class="nav-link" href="chapter3.html">
+            <span class="nav-link-text">Chapter 3</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
+          <a class="nav-link" href="chapter4.html">
+            <span class="nav-link-text">Chapter 4</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a class="nav-link" href="chapter5.html">
+            <span class="nav-link-text">Chapter 5</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a class="nav-link" href="chapter6.html">
+            <span class="nav-link-text">Chapter 6</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a class="nav-link" href="chapter7.html">
+            <span class="nav-link-text">Chapter 7</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a class="nav-link" href="chapter8.html">
+            <span class="nav-link-text">Chapter 8</span>
+          </a>
+        </li>
+        
+      </ul>
+      <ul class="navbar-nav sidenav-toggler">
+        <li class="nav-item">
+          <a class="nav-link text-center" id="sidenavToggler">
+            <i class="fa fa-fw fa-angle-left"></i>
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right">
+          <a class="nav-link" href="about.html">
+            <span class="nav-link-text">About</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right">
+          <a class="nav-link" href="contact.html">
+            <span class="nav-link-text">Contact</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <form class="form-inline my-2 my-lg-0 mr-lg-2">
+            <div class="input-group">
+              <input class="form-control" type="text" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="content-wrapper">
+    <div class="container-fluid">
+    <h1> Chapter 7</h1>
+    <h2>Fragment identifiers </h2>
+    <ul>
+    <li>A link to part of a web page </li>
+    <li>Also called fragments </li>
+    <li>Has two components </li>
+    <ol><li>The element that identifies the named fragment of a web page – requires the id attribute  &lt;div id="top"&gt …. &lt;/div&gt </li>
+    <li>The anchor tag that links to the named fragment of a web page – uses a href element &lt;a href="#top"&gt Back to Top &lt;/a&gt </li>
+    </ol>
+    <li>Opening a link in a new browser window </li>
+    <li>The target attribute on the anchor element opens a link in a new browser window or a new tab &lt;a href="http://yahoo.com" target="_blank"&gt Yahoo!&lt;/a&gt </li>
+    </ul>
+    
+    <h2>HTML block anchor</h2> 
+    <ul>
+    <li>Configure block display elements within a hyperlink <br>
+    <p>&lt;a href=http://www.w3.org&gt </p>
+    <p>&lt;h1&gt HTML 5 Reference &lt;/h1&gt </p>
+    <p>&lt;p&gt book mark this site for a handy HTML reference &lt;/p&gt &lt;/a&gt </p>
+    <br></li>
+    </ul>
+    
+    <h2>Telephone or text hyperlinks </h2>
+    <ul>
+    <li>Telephone scheme – Many mobile phones will initiate a phone call when the hyperlink is clicked 
+    <p>&lt;a href=tel:888-555-5555&gtCall 888-555-5555&lt;/a&gt </p></li>
+    <li>SMS scheme – Many mobiles will initiate a text when the hyperlink is clicked 
+    <p>&lt;a href="sms:888-555-5555"&gt Text 888-555-5555&lt;/a&gt </p></li>
+    </ul>
+    
+    <h2>Sprite </h2>
+    <ul>
+    <li>An image file that contains multiple small graphics </li>
+    <li>Saves download time  </li>
+    <li>The first image appears at the top and the second image appears 100 pixels down from the top </li>
+    </ul>
+    
+    <h2>Three Column Page Layout </h2>
+    <ul>
+    <li>Has a header across the top with three columns below including: left, right, and center column </li>
+    <li>Left-column navigation – Float: left; width:150px; </li>
+    <li>Right-column navigation – Float: right; width:200px; </li>
+    <li>Center column – Uses the remaining screen available { Margin: 0 210px 0 160px; }</li>
+    <li>Footer – Clears the float  {Clear: both;} </li>
+    </ul>
+    
+    <h2>CSS Print Styling </h2>
+    <ul>
+    <li>Create an external style sheet with the configurations for browser display </li>
+    <li>Then create an external style sheet with the configurations for printing </li>
+    <li>Connect both external style sheets to the web page using two &lt;link&gt elements 
+    <p>&lt;link rel="stylesheet" href="wildflower.css" type="text/css" media="screen"&gt </p>
+    <p>&lt;link rel="stylesheet" href="wildflowers.css" type="text/css" media="print"&gt </p></li>
+    </ul>
+    
+    <h2>Print Styling Best Practices </h2>
+    <ul>
+    <li>Hide non-essential content – #nav {display: none} </li>
+    <li>Configure font size and color for printing – Use pt font sizes, use dark font color </li>
+    <li>Control break pages – .newpage {page-break-before: always} </li>
+    <li>Print URLs for hyperlinks – #sidebar a:after {content: "("attr(href)")";} </li>
+    </ul>
+    
+    <h2>Mobile Web Design Best Practices </h2>
+    <ul>
+    <li>Optimize layout, navigation, graphics, and text for mobile use  </li>
+    <li>Design for one web </li>
+    <ol>
+    <li>Use a single column design </li>
+    <li>Scroll only one way </li>
+    <li>Use heading elements </li>
+    <li>Use lists </li>
+    <li>Avoid using tablets</li> 
+    <li>Provide labels for form controls </li>
+    <li>Avoid using pixel units in style sheets </li>
+    <li>Hide content that is not essential for mobile use </li>
+    <li>Provide minimal navigation near the top of the page </li>
+    <li>Provide consistent navigation </li>
+    <li>Avoid hyperlinks that open files in new windows or pop-up windows </li>
+    <li>Try to balance both the number of hyperlinks on a page and the number of levels needed to access info </li>
+    <li>Avoid displaying images that are wider than the screen width </li>
+    <li>Configure alternate, small optimized background images </li>
+    <li>Some mobile browsers will downsize all images so avoid using images that contain text </li>
+    <li>Avoid the use of large graphic images </li>
+    <li>Specify the size of images </li>
+    <li>Provide alternate text for graphics and other non-text elements  </li>
+    <li>Configure good contrast between text and background colors </li>
+    <li>Use common font typefaces </li>
+    <li>Configure font sizes with em units or percentages </li>
+    <li>Use a short, descriptive page title </li>
+    </ol></ul>
+    
+    <h2>Viewport Meta Tag </h2>
+    <ul>
+    <li>Configures width and initial scale of browser viewport – &lt;meta name="viewport" content="width"device-width, initial-scale=1.0"&gt </li>
+    <li>Media query – Determines the capability of the mobile device such as screen resolution and directs the browser to styles configured specifically for those capabilities </li>
+    <p>&lt;link href="lighthousemobile.css" rel="stylesheet" Media="only all and (max-device-width:480px)"&gt</p></li>
+    <li>Within CSS - media only all and (max-width: 768px){ } </li>
+    </ul>
+    
+    <h2>Flexible images – to make images display on different screens </h2>
+    <ul>
+    <li>Edit HTML – remove height and width attributes </li>
+    <li>CSS – img {max-width: 100%; height: auto; </li>
+    </ul>
+    
+    <h2>Responsive Images </h2>
+    <ul>
+    <li><p>&lt;picture&gt </p>
+    <p>&lt;source media="(min-width: 1200px)" srcset="large.jpg"&gt </p>
+    <p>&lt;source media="(min-width: 800px)" srcset="medium.jpg"&gt </p>
+    <p> &ltsource media="(min-width: 320px)" srcset="small.jpg"&gt </p>
+    <p> &lt;img src="fallback.jpg" alt="waterwheel"&gt </p>
+    <p>&lt;/picture&gt </p>
+    <p>&lt;img src="fallback.jpg" Sizes ="100vw" Srcset="large.jpg 1200w, medium.jpg 800w, small.jpg 320w" Alt = "waterwheel"&t </p> </li>
+    </ul>
+    
+    <h2>Testing mobile display options</h2> 
+    <ul>
+    <li>Test with a mobile device  </li>
+    <li>Emulators </li>
+    <ol><li>Opera mobile emulator </li>
+    <li>Mobilizer </li>
+    <li>Iphone emulator </li>
+    </ol>
+    <li>Test with a desktop browser </li>
+    <li>Install an iOS or android SDK </li>
+    </ul>
+    
+    
+    <!-- /.container-fluid-->
+    <!-- /.content-wrapper-->
+    <footer class="sticky-footer">
+      <div class="container">
+        <div class="text-center">
+          <small>Copyright © CP202 Crash Course 2017</small>
+        </div>
+      </div>
+    </footer>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+    <!-- Logout Modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="login.html">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Page level plugin JavaScript-->
+    <script src="vendor/datatables/jquery.dataTables.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin.min.js"></script>
+    <!-- Custom scripts for this page-->
+    <script src="js/sb-admin-datatables.min.js"></script>
+  </div>
+</body>
+
+</html>

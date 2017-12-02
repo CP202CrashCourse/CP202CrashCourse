@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>SB Admin - Start Bootstrap Template</title>
+  <!-- Bootstrap core CSS-->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template-->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- Page level plugin CSS-->
+  <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin.css" rel="stylesheet">
+</head>
+
+<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <a class="navbar-brand" href="index.html">CP202: Crash Course</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+          <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+              <a class="nav-link" href="class-content.html">
+                <span class="nav-link-text">Class Content</span>
+              </a>
+            </li> 
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" href="chapter1.html">
+            <span class="nav-link-text">Chapter 1</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
+          <a class="nav-link" href="chapter2.html">
+            <span class="nav-link-text">Chapter 2</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+          <a class="nav-link" href="chapter3.html">
+            <span class="nav-link-text">Chapter 3</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
+          <a class="nav-link" href="chapter4.html">
+            <span class="nav-link-text">Chapter 4</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a class="nav-link" href="chapter5.html">
+            <span class="nav-link-text">Chapter 5</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a class="nav-link" href="chapter6.html">
+            <span class="nav-link-text">Chapter 6</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a class="nav-link" href="chapter7.html">
+            <span class="nav-link-text">Chapter 7</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a class="nav-link" href="chapter8.html">
+            <span class="nav-link-text">Chapter 8</span>
+          </a>
+        </li>
+        
+      </ul>
+      <ul class="navbar-nav sidenav-toggler">
+        <li class="nav-item">
+          <a class="nav-link text-center" id="sidenavToggler">
+            <i class="fa fa-fw fa-angle-left"></i>
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right">
+          <a class="nav-link" href="about.html">
+            <span class="nav-link-text">About</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right">
+          <a class="nav-link" href="contact.html">
+            <span class="nav-link-text">Contact</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <form class="form-inline my-2 my-lg-0 mr-lg-2">
+            <div class="input-group">
+              <input class="form-control" type="text" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="content-wrapper">
+    <div class="container-fluid">
+    <h1> Chapter 6</h1>
+    <h2>The box model – forms a box around text to separate it from other content on the web page </h2>
+    <ul>
+    <li>Content - The text and web page elements in the container </li>
+    <li>Padding - The area between content and border </li>
+    <li>The Padding Property - The padding-top, padding-right, padding-left, padding-bottom </li>
+    <li>Configures the space between the html element and the border  </li>
+    <li>For example: <br>
+    h1 {padding: 0;} 
+    h1 {padding: 20px 10px;} 
+    h1 {padding: 20px 30px 0 30px;} <br></li>
+    <li>Border – area between the padding and the margin </li>
+    <li>Margin – determines the empty space between the element and adjacent elements </li>
+    <li>The Marin Property – margin-top, margin-right, margin-left, margin-bottom </li>
+    <li>This configures the space between the element and adjacent elements </li>
+    <li>For example: <br>
+    h1 {margin: 0;} 
+    h1 {margin: 20px 10px} 
+    h1 {margin: 20px 30px 0 30px;} <br></li>
+    </ul>
+    
+    <h2>The Box Sizing Property</h2> 
+    <ul>
+    <li>Used to direct the browser to calculate the width and height of an element to include the value for content, padding, and border </li>
+    <li>You can use the universal selector (*) to apply this to all elements of the webpage </li>
+    <li>* {box-sizing: border-box;} </li>
+    </ul>
+    
+    <h2>Normal flow – when the browser displays the elements in the order they were coded in </h2>
+    <ul>
+    <li>Float Property </li>
+    <ol><li>You can make an image appear to float on the right or left side of the browser window  </li>
+    <li>.pull-right{float:right} - in the style section </li>
+    <li><p class="pull-right"> - in the paragraph section </li>
+    </ol>
+    <li>Clear Property </li>
+    <ol><li>Clears of terminates a float meaning the next text or section will be displayed in the normal flow </li>
+    <li>Clear: left, right, or both </li>
+    <li>&lt;p class="bottom"&gt </li>
+    </ol>
+    <li>Overflow – configures the display of elements on a web page </li>
+    <ol>
+    <li>Useful to clear or terminate a float before the end of a container element </li>
+    <li>Overflow: auto, hidden, scroll </li>
+    </ol>
+    
+    <h2>CSS Display Property – configure how and if an element is displayed </h2>
+    <ul>
+    <li>Display: none – element is not displayed </li>
+    <li>Display: block – element is displayed as a block element, even if it is actually an inline element </li>
+    <li>Display: inline – element will be rendered as an inline element even if it is actually a block element</li> 
+    <li>Display: inline-block – element will display as an inline display element but can also be configured with properties of block display elements including height and width </li>
+    </ul>
+    
+    <h2>Page Layout </h2>
+    <ul>
+    <li>Basic two column <br>
+    <p>&lt;body&gt </p>
+    <p>&lt;div id="wrapper"&gt</p> 
+    <p>&lt;header&gt &lt;/header&gt </p> 
+    <p>&lt;nav&gt &lt;/nav&gt </p> 
+    <p>&lt;main&gt &lt;/main&gt </p> 
+    <p>&lt;footer&gt &lt;/footer&gt</p> 
+    <p>&lt;/div&gt </p> 
+    <p>&lt;/body&gt</p>
+    <br> </li>
+    
+    <li>#wrapper {width: 80%; </li>
+    <li>Margin-left: auto; </li>
+    <li>Margin-right: auto; </li>
+    <li>Background-color: #EAEAEA; } </li>
+    <li>Header {background-color: #CFCFCF; } </li>
+    <li>h1 {margin: 0; padding: 10px;} </li>
+    <li>Nav {float: left; </li>
+    <li>Width: 90px; </li>
+    <li>Padding: 10px; } </li>
+    <li>Main {margin-left: 100px; </li> 
+    <li>Padding: 10px; </li>
+    <li>Background-color: #FFFFFF;} </li> 
+    <li>Footer {text-align: center; </li>
+    <li>   Font-style: italic; </li>
+    <li>   Background-color: #CCCCCC; }</li> 
+    </ul>
+    
+    <h2>Vertical Navigation </h2>
+    <li>&lt;nav&gt  
+    <p>&lt;ul&gt </p>
+    <p>&lt;li&gt &lt;a href="index.html"&gtHome&lt;/a&gt&lt;/li&gt </p> 
+    <p>&lt;li&gt&lt;a href="menu.html"&gtMenu&lt;/a&gt&lt;/li&gt </p> 
+    <p>&lt;li&gt&lt;a href="directions.html"&gtDirections&lt;/a&gt&lt;/li&gt</p> 
+    <p>&lt;/ul&gt</p> 
+    <p>&lt;/nav&gt</p> </li> 
+    <li>To remove the list marker and underline </li>
+    <ol>
+    <li>Nav ul {list-style-type: none;} </li>
+    <li>Nav a {text-decoration: none;} </li>
+    </ol>
+    </ul>
+    
+    <h2>Horizontal Navigation </h2>
+    <ul>
+    <li>&lt;nav&gt  </li>
+    <li>&lt;ul&gt </li> 
+    <li>&lt;li&gt &lt;a href="index.html"&gtHome&lt;/a&gt&lt;/li&gt </li>
+    <li>&lt;li&gt&lt;a href="menu.html"&gtMenu&lt;/a&gt&lt;/li&gt </li>
+    <li>&lt;li&gt&lt;a href="directions.html"&gtDirections&lt;/a&gt&lt;/li&gt </li>
+    <li>&lt;/ul&gt </li>
+    <li>&lt;/nav&gt </li>
+    <li>To remove the list marker, underline, add padding, and configure inline display </li>
+    <li>Nav ul {list-style-type: none;} </li>
+    <li>Nav a {text-decoration: none; Padding-right: 10px;} </li>
+    <li>Nav li {display: inline;} </li>
+    </ul>
+    
+    <h2>The Anchor Element </h2>
+    <li>Link – default state for a hyperlink </li>
+    <li>Visited – a hyperlink that has been visited </li>
+    <li>Focus – triggered when the hyperlink has focus </li>
+    <li>Hover – triggered when the mouse moves over the hyperlink </li>
+    <li>Active – triggered when the hyperlink has been clicked </li>
+    <li>a: link        {color: #000066} </li>
+    <li>a: visited  {color: #003366} </li>
+    <li>a: focus    {color: #FF0000} </li>
+    <li>a: hover   {text-decoration: none; color: #0099CC} </li>
+    <li>a: active   {color: #FF0000} </li>
+    </ul>
+    
+    <h2>Position Property </h2>
+    <ul>
+    <li>Static – default value where the element is rendered in the normal flow </li>
+    <li>Fixed – configures the location of an element within the browser viewport; element doesn’t move when the page is scrolled </li>
+    <li>Nav {position: fixed} </li>
+    <li>Relative – configures the location of an element relative to where it would otherwise render in normal flow </li>
+    <li>P {position: relative; Left: 30px; Font-family: arial, sans-serif;} </li>
+    <li>Absolute – configures the location of an element outside of normal flow precisely in its container element  </li>
+    <li>P {position: abolute; 
+         Left: 200px; 
+         Top: 100px; 
+          Font-family: arial, sans-serif; 
+          Width: 300px;} </li>
+    </ul>
+    
+    <h2>Header Element</h2> 
+    <ul>
+    <li>Block display – contains the headings of either a web page document or an area in the document such as the section or article </li>
+    </ul>
+    
+    <h2>Nav element </h2>
+    <ul>
+    <li>Block display – contains a section of hyperlinks </li>
+    </ul>
+    
+    <h2>Main element </h2>
+    <ul>
+    <li>Block display – contains main page content </li>
+    </ul>
+    
+    <h2>Footer element</h2> 
+    <ul>
+    <li>Block display – contains the footer content of a web page or specific area such as a section or article on a web page</li>
+    </ul>
+     
+    <h2>Aside element</h2> 
+    <ul>
+    <li>Block display – contains a side bar, note or other tangential content </li>
+    </ul>
+    
+    <h2>Section element </h2> 
+    <ul>
+    <li>Block display – contains a section of a document such as a chapter or topic </li>
+    </ul>
+    
+    <h2>Article element</h2> 
+    <ul>
+    <li>Block display – contains an independent entry such as a blog posting, comment, or e-zine article that could stand on its own </li>
+    </ul>
+    
+    <h2>Time element</h2> 
+    <ul>
+    <li>Inline display – represents a date or time, could be useful to date articles or blog posts </li>
+    </ul>
+    
+    <h2>To configure a class </h2>
+    <ul>
+    <li>If the style may apply to more than element on a page  </li>
+    <li>Use the .(dot) notation in the style sheet </li>
+    <li>Use the class attribute in html </li>
+    </ul>
+    
+    <h2>To configure an id </h2>
+    <ul>
+    <li>If the style is specific to only one element on a page </li>
+    <li>Use the # notation in the style sheet </li>
+    <li>Use the id attribute in the html </li>
+    </ul>
+    
+    
+    <!-- /.container-fluid-->
+    <!-- /.content-wrapper-->
+    <footer class="sticky-footer">
+      <div class="container">
+        <div class="text-center">
+          <small>Copyright © Cp202 Crash Course 2017</small>
+        </div>
+      </div>
+    </footer>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+    <!-- Logout Modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="login.html">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Page level plugin JavaScript-->
+    <script src="vendor/datatables/jquery.dataTables.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin.min.js"></script>
+    <!-- Custom scripts for this page-->
+    <script src="js/sb-admin-datatables.min.js"></script>
+  </div>
+</body>
+
+</html>
